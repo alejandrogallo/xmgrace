@@ -15,10 +15,13 @@ The installation procedure is covered in the User's Guide
 
 # My fork additions
 
-- I added the Computer Modern Unicde fonts
+- I added the Computer Modern Unicode fonts
   from here https://www.ctan.org/pkg/cm-unicode.
 - I added a `shell.nix` file so that you can compile it using nixos
   and doing
-```
-nix-shell; ./configure; make
-```
+  ```
+  nix-shell; ./configure; make
+  ```
+- The default font is Computer Modern Unicode, which means
+  that your plots will have the same font as most default LaTeX documents,
+  **you are welcome**.
