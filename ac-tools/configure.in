@@ -261,6 +261,8 @@ then
     DEBUG="-g -O2"
     OPTIMIZE="-O2"
     CFLAGS="-fno-common -Wall -Wpointer-arith -Wnested-externs"
+    CFLAGS="$CFLAGS -Wno-format-security"
+
 
     dnl **** check for strength-reduce bug
     ACX_GCC_STRENGTH_REDUCE(CFLAGS="$CFLAGS -fno-strength-reduce")
