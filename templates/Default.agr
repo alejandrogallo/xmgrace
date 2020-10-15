@@ -19,6 +19,39 @@
 @map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
 @map font 12 to "Symbol", "Symbol"
 @map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map font 14 to "CMUBright-Bold", "CMUBright-Bold"
+@map font 15 to "CMUSerif-BoldItalic", "CMUSerif-BoldItalic"
+@map font 16 to "CMUSerif-BoldSlanted", "CMUSerif-BoldSlanted"
+@map font 17 to "CMUBright-Oblique", "CMUBright-Oblique"
+@map font 18 to "CMUBright-Roman", "CMUBright-Roman"
+@map font 19 to "CMUBright-SemiBoldOblique", "CMUBright-SemiBoldOblique"
+@map font 20 to "CMUBright-SemiBold", "CMUBright-SemiBold"
+@map font 21 to "CMUTypewriter-Light", "CMUTypewriter-Light"
+@map font 22 to "CMUTypewriter-LightOblique", "CMUTypewriter-LightOblique"
+@map font 23 to "CMUBright-BoldOblique", "CMUBright-BoldOblique"
+@map font 24 to "CMUSerif-Bold", "CMUSerif-Bold"
+@map font 25 to "CMUClassicalSerif-Italic", "CMUClassicalSerif-Italic"
+@map font 26 to "CMUTypewriter-Italic", "CMUTypewriter-Italic"
+@map font 27 to "CMUConcrete-BoldItalic", "CMUConcrete-BoldItalic"
+@map font 28 to "CMUConcrete-Bold", "CMUConcrete-Bold"
+@map font 29 to "CMUConcrete-Roman", "CMUConcrete-Roman"
+@map font 30 to "CMUConcrete-Italic", "CMUConcrete-Italic"
+@map font 31 to "CMUSerif-BoldNonextended", "CMUSerif-BoldNonextended"
+@map font 32 to "CMUSerif-Roman", "CMUSerif-Roman"
+@map font 33 to "CMUSansSerif-Oblique", "CMUSansSerif-Oblique"
+@map font 34 to "CMUSerif-RomanSlanted", "CMUSerif-RomanSlanted"
+@map font 35 to "CMUSansSerif-BoldOblique", "CMUSansSerif-BoldOblique"
+@map font 36 to "CMUSansSerif-DemiCondensed", "CMUSansSerif-DemiCondensed"
+@map font 37 to "CMUSansSerif", "CMUSansSerif"
+@map font 38 to "CMUTypewriter-Oblique", "CMUTypewriter-Oblique"
+@map font 39 to "CMUSansSerif-Bold", "CMUSansSerif-Bold"
+@map font 40 to "CMUTypewriter-Bold", "CMUTypewriter-Bold"
+@map font 41 to "CMUSerif-Italic", "CMUSerif-Italic"
+@map font 42 to "CMUTypewriter-Regular", "CMUTypewriter-Regular"
+@map font 43 to "CMUTypewriter-BoldItalic", "CMUTypewriter-BoldItalic"
+@map font 44 to "CMUSerif-UprightItalic", "CMUSerif-UprightItalic"
+@map font 45 to "CMUTypewriterVariable-Italic", "CMUTypewriterVariable-Italic"
+@map font 46 to "CMUTypewriterVariable", "CMUTypewriterVariable"
 @map color 0 to (255, 255, 255), "white"
 @map color 1 to (0, 0, 0), "black"
 @map color 2 to (255, 0, 0), "red"
@@ -42,7 +75,7 @@
 @default linestyle 1
 @default color 1
 @default pattern 1
-@default font 0
+@default font 32
 @default char size 1.000000
 @default symbol size 1.000000
 @default sformat "%.8g"
@@ -52,7 +85,7 @@
 @timestamp 0.03, 0.03
 @timestamp color 1
 @timestamp rot 0
-@timestamp font 0
+@timestamp font 32
 @timestamp char size 1.000000
 @timestamp def "*** *** -- --:--:-- ----"
 @r0 off
@@ -106,11 +139,11 @@
 @    znorm 1
 @    view 0.150000, 0.150000, 1.150000, 0.850000
 @    title ""
-@    title font 0
+@    title font 32
 @    title size 1.500000
 @    title color 1
 @    subtitle ""
-@    subtitle font 0
+@    subtitle font 32
 @    subtitle size 1.000000
 @    subtitle color 1
 @    xaxes scale Normal
@@ -128,7 +161,7 @@
 @    xaxis  label layout para
 @    xaxis  label place auto
 @    xaxis  label char size 1.000000
-@    xaxis  label font 0
+@    xaxis  label font 32
 @    xaxis  label color 1
 @    xaxis  label place normal
 @    xaxis  tick on
@@ -164,7 +197,7 @@
 @    xaxis  ticklabel stop type auto
 @    xaxis  ticklabel stop 0.000000
 @    xaxis  ticklabel char size 1.000000
-@    xaxis  ticklabel font 0
+@    xaxis  ticklabel font 32
 @    xaxis  ticklabel color 1
 @    xaxis  tick place both
 @    xaxis  tick spec type none
@@ -179,7 +212,7 @@
 @    yaxis  label layout para
 @    yaxis  label place auto
 @    yaxis  label char size 1.000000
-@    yaxis  label font 0
+@    yaxis  label font 32
 @    yaxis  label color 1
 @    yaxis  label place normal
 @    yaxis  tick on
@@ -215,7 +248,7 @@
 @    yaxis  ticklabel stop type auto
 @    yaxis  ticklabel stop 0.000000
 @    yaxis  ticklabel char size 1.000000
-@    yaxis  ticklabel font 0
+@    yaxis  ticklabel font 32
 @    yaxis  ticklabel color 1
 @    yaxis  tick place both
 @    yaxis  tick spec type none
@@ -230,7 +263,7 @@
 @    legend box linestyle 1
 @    legend box fill color 0
 @    legend box fill pattern 1
-@    legend font 0
+@    legend font 32
 @    legend char size 1.000000
 @    legend color 1
 @    legend length 4
