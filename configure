@@ -4186,6 +4186,8 @@ then
         DEBUG="-g -O2"
     OPTIMIZE="-O2"
     CFLAGS="-fno-common -Wall -Wpointer-arith -Wnested-externs"
+    CFLAGS="$CFLAGS -Wno-format-security"
+
 
 
 
